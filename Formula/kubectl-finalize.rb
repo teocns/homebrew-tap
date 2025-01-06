@@ -6,7 +6,7 @@ class KubectlFinalize < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/teocns/kubectl-finalize/releases/download/v0.1.1/kubectl-finalize-darwin-arm64"
-      sha256 "454964eee7a50ef3c125b272fc8da2b74dcdd2a1438e7bbf5229b0d898e27b7b"
+      sha256 "d140cb320e6ea43e36fa1a9d72e8f7ad74edba411284e53a6b199dc141c1736f"
 
       def install
         binary_name = "kubectl-finalize"
@@ -14,7 +14,7 @@ class KubectlFinalize < Formula
       end
     else
       url "https://github.com/teocns/kubectl-finalize/releases/download/v0.1.1/kubectl-finalize-darwin-amd64"
-      sha256 "0363fad51d615557902e5d735d09a523539b9cba1897fefcca6298f6eb983d49"
+      sha256 "b562476da316dd3876b16c33728733f4cd1d47c6dc33a2d14e1ed67199f20b9b"
 
       def install
         binary_name = "kubectl-finalize"
@@ -25,7 +25,7 @@ class KubectlFinalize < Formula
 
   on_linux do
     url "https://github.com/teocns/kubectl-finalize/releases/download/v0.1.1/kubectl-finalize-linux-amd64"
-    sha256 "773bc2b86b4b621738789563c27ac20d4ba765d19d9ec623cf480c4c6783344f"
+    sha256 "69974a5b655e71474163fd4d771b9c726c4fe98b7c5ec786981b69109b45898b"
 
     def install
       binary_name = "kubectl-finalize"
